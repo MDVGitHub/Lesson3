@@ -7,5 +7,5 @@
 Console.WriteLine("Введите пятизначное число");
 int Number = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine();
-Console.WriteLine();
+
 Console.WriteLine(Number);
