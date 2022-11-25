@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "87izHjEq2toknlU9zdhWmCaPM9E0oSro/dXOKi1n7JJMDGd8OuS9sQNv6nbNAbWf93R7LKHaXJCVCwAOuTlYWQ==",
+  "dgSpecHash": "DEbiQsaZ5kP5YFr6z7qpMWpA5cC75wtECwF5B/iVH+76Ef+jgAuIt7LtY0quR0gmCQyqY6TiFTrUY2Dh3jMS9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dmaka\\Desktop\\С##\\Lesson3\\dz3_3\\dz3_3.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\dmaka\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\dmaka\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\dmaka\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\dmaka\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512"
-  ],
+  "projectFilePath": "/Users/dmitriymakarov/Desktop/C##/Lesson3/dz3_3/dz3_3.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
