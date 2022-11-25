@@ -8,6 +8,7 @@ int N = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine();
 int count = 0;
 
+Console.WriteLine($"Таблица кубов чисел от 1 до {N}");
 for (int i = 1; i <= N; i++)
 {
     count = i * i * i;
