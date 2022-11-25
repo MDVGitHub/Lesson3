@@ -11,7 +11,5 @@ int count = 0;
 for (int i = 1; i <= N; i++)
 {
     count = i * i * i;
+    Console.WriteLine(count);
 }
-
-Console.WriteLine(count);
-Console.WriteLine();
