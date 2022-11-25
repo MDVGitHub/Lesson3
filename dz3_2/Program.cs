@@ -22,8 +22,8 @@ int p2z = Convert.ToInt32(Console.ReadLine());
 double DistanceToPoint (double p1x, double p1y, double p1z, double p2x, double p2y, double p2z);
 
     {
-        double distance =  Math.Sqrt((p1x - p2x) * (p1x - p2x) + (p1y - p2y) * (p1y - p2y) + (p1z - p2z) * (p1z - p2z));
-        return distance;
+        return  Math.Sqrt((p1x - p2x) * (p1x - p2x) + (p1y - p2y) * (p1y - p2y) + (p1z - p2z) * (p1z - p2z));
     }
 
-Console.WriteLine($"Расстояние между точками равно {distance} ");
+double Length =  DistanceToPoint(p1x, p2x, p1y, p2y, p1z, p2z);
+Console.WriteLine($"Расстояние между точками равно {Length} ");
