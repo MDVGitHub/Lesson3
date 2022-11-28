@@ -5,25 +5,25 @@ A (7,-5, 0); B (1,-1,9) -> 11.53*/
 
 Console.WriteLine("введите координаты первой точки");
 Console.Write("Введите координаты x1: ");
-int p1x = Convert.ToInt32(Console.ReadLine());
+int x1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите координаты y1: ");
-int p1y = Convert.ToInt32(Console.ReadLine());
+int y1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите координаты z1: ");
-int p1z = Convert.ToInt32(Console.ReadLine());
+int z1 = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("введите координаты второй точки");
 Console.Write("Введите координаты x2: ");
-int p2x = Convert.ToInt32(Console.ReadLine());
+int x2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите координаты y2: ");
-int p2y = Convert.ToInt32(Console.ReadLine());
+int y2 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите координаты z2: ");
-int p2z = Convert.ToInt32(Console.ReadLine());
+int z2 = Convert.ToInt32(Console.ReadLine());
 
-double DistanceToPoint (double p1x, double p1y, double p1z, double p2x, double p2y, double p2z);
+double DistanceToPoint(double x1, double x2, double y1, double y2, double z1, double z2)
 
-    {
-        double distance =  Math.Sqrt((p1x - p2x) * (p1x - p2x) + (p1y - p2y) * (p1y - p2y) + (p1z - p2z) * (p1z - p2z));
-        return distance;
+    {         
+    return Math.Sqrt ((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2) + (z1 - z2) * (z1 - z2));
     }
 
-Console.WriteLine($"Расстояние между точками равно {distance} ");
+double Length =  Math.Round (DistanceToPoint(x1, x2, y1, y2, z1, z2), 2 );
+Console.WriteLine($"Расстояние между точками равно {Length} ");
